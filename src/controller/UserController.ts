@@ -14,7 +14,7 @@ import ItemSchema from '../models/ItemSchema'
 class UserController {
 
     static async testConection() {
-        const url = "mongodb+srv://luizcunha:familia1@cluster0.l36ci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+        const url = "mongodb+srv://luizcunha:@cluster0.l36ci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
         let item: Item = {
             brand: 'Ble',
             ean: 'Ble',
